@@ -30,10 +30,10 @@ setup(
     url='https://github.com/flavors/django-graphql-social-auth/',
     packages=find_packages(exclude=['tests*']),
     install_requires=[
-        'Django>=1.11',
-        'django-filter>=1.1.0',
-        'graphene-django>=2.0.0',
-        'social-auth-app-django>=2.1.0',
+        'Django>=4.2.20',
+        'django-filter>=24.1',
+        'graphene-django>=3.0.0',
+        'social-auth-app-django>=5.4',
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
